@@ -1,0 +1,778 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+  /* padding: 20px; */
+}
+
+.header--dflex {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px;
+}
+
+.header--nav {
+  display: flex;
+  gap: 30px;
+}
+
+.header--link-1 {
+  font-family: Kumbh Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: right;
+  color: #4a556c;
+}
+
+.header--link-1:hover {
+  color: red;
+}
+.header--link-2 {
+  font-family: Kumbh Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: right;
+  color: #4a556c;
+}
+
+.header--link-2:hover {
+  color: red;
+}
+.header--link-3 {
+  font-family: Kumbh Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: right;
+  color: #4a556c;
+}
+
+.header--link-3:hover {
+  color: red;
+}
+.header--link-4 {
+  font-family: Kumbh Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: right;
+  color: #4a556c;
+}
+
+.header--link-4:hover {
+  color: red;
+}
+
+.header--link--btn {
+  max-width: 193px;
+  height: 40px;
+  border-radius: 4px;
+  padding: 11px 16px;
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18.2px;
+  text-align: right;
+  color: white;
+  background-color: #20ad96;
+}
+
+@media screen and (max-width: 777px) {
+  .header--link-1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .header--link-2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .header--link-3 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 535px) {
+  .header--link-4 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 535px) {
+}
+
+/* home */
+
+.home {
+  background-color: #faf8f6;
+  /* height: 677px; */
+}
+
+.home__dflex {
+  display: flex;
+  gap: 200px;
+  align-items: center;
+}
+
+.home__content {
+  max-width: 545px;
+}
+
+.home__content--title {
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #4a556c;
+  padding-top: 6px;
+}
+
+.home__content--text {
+  font-family: Kumbh Sans;
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 86.4px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: #333461;
+  padding-bottom: 6px;
+}
+
+.home__content--text-2 {
+  font-family: Kumbh Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+  color: #4a556c;
+  padding-bottom: 23px;
+}
+
+.home__link {
+  max-width: 250px;
+  border: 1px solid black;
+  border: none;
+  border-radius: 8px;
+  padding: 9px 45px;
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+  background-color: #20ad96;
+}
+
+.home__imeges {
+  position: relative;
+}
+
+.home__andre {
+  max-width: 462px;
+  height: 550px;
+  margin-top: 50px;
+  /* position: absolute; */
+}
+
+/* .home__notes{
+    position: absolute;
+    left: 10%;
+    top: 1%;
+    right: 0;
+
+  }
+
+  .home__seasions{
+    position: absolute;
+  } */
+
+/* logos */
+
+.container-logos {
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 20px;
+}
+
+.logos {
+  text-align: center;
+  padding: 96px 80px;
+}
+
+.logos__text {
+  padding-bottom: 32px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  color: #667085;
+}
+
+.logos__div {
+  display: flex;
+  gap: 92.75px;
+}
+
+/* clients */
+
+.clients {
+  background-color: #faf8f6;
+  padding-top: 120px;
+  height: 879px;
+}
+
+.clients__text {
+  max-width: 530px;
+  font-family: Kumbh Sans;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 56px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: #333461;
+  padding-bottom: 37px;
+}
+
+.clients__content {
+  min-width: 300px;
+  max-width: 400px;
+  padding: 48px;
+  background-color: #ffffff;
+}
+
+.clients__content-h {
+  font-family: Kumbh Sans;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 40px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #20ad96;
+  padding-bottom: 15px;
+}
+
+.clients__content-title {
+  max-width: 302px;
+  font-family: Kumbh Sans;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #4a556c;
+
+  padding-bottom: 15px;
+}
+
+.clients__content--h2 {
+  font-family: Kumbh Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #333461;
+  padding-bottom: 15px;
+}
+
+.clients__dflex {
+  display: flex;
+  gap: 37px;
+}
+
+.clients__content-2 {
+  padding-top: 48px;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-bottom: 0;
+  background-color: #ffffff;
+}
+
+/* ready */
+
+.ready__content-div {
+  max-width: 768px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+.ready__title {
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #4a556c80;
+  padding-bottom: 12px;
+}
+
+.ready__text {
+  font-family: Kumbh Sans;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #333461;
+  padding-bottom: 20px;
+}
+
+.ready__title-2 {
+  font-family: Kumbh Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color: #4a556cb2;
+  padding-bottom: 64px;
+}
+
+.ready__div {
+  max-width: 330px;
+  min-width: 280px;
+  text-align: center;
+}
+
+.ready__div--text {
+  font-family: Kumbh Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  color: #333461;
+  padding-top: 20px;
+  padding-bottom: 8px;
+}
+
+.ready--title {
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #667085;
+}
+
+.ready__dflex {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+
+.iconwrap {
+  width: 30px;
+  height: 30px;
+}
+
+/* good  */
+
+.good {
+  padding: 96px 0;
+}
+
+.container__good {
+  max-width: 768px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 20px;
+}
+
+.good__text--h {
+  font-family: Kumbh Sans;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #333461;
+  padding-bottom: 20px;
+}
+
+.good__text--p {
+  font-family: Kumbh Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color: #4a556c;
+}
+
+.good__content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 768px;
+}
+
+.good__div {
+  margin-top: 64px;
+}
+
+.good__content--text-h {
+  font-family: Kumbh Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #101828;
+}
+
+.good__content__text--p {
+  max-width: 700px;
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #4a556c;
+  padding-top: 8px;
+}
+
+.good__hr {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.still__div {
+  /* max-width: 1216px; */
+  margin-top: 64px;
+  border: 1px solid black;
+  border-radius: 12px;
+  border: none;
+  background-color: #faf8f6;
+  padding: 32px;
+}
+
+.still__text {
+  font-family: Kumbh Sans;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 30px;
+  text-align: center;
+  color: #333461;
+}
+
+.still__text--p {
+  font-family: Kumbh Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  color: #4a556c;
+  padding-bottom: 32px;
+}
+
+.stil__link {
+  border: 1px solid black;
+  border-radius: 8px;
+  border: none;
+  background-color: #20ad96;
+  padding: 10px 78px;
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.stil__link-div {
+  text-align: center;
+}
+
+/* notifaed */
+.notifaed {
+  background-color: #faf8f6;
+  padding: 48px 0;
+}
+
+.notifaed__dflex {
+  max-width: 1216px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notifaed__content--text {
+  font-family: Kumbh Sans;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 38px;
+  text-align: left;
+  color: #333461;
+  padding-bottom: 16px;
+}
+
+.notifaed__content--text-p {
+  font-family: Kumbh Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #4a556c;
+}
+
+.notifaed__intput {
+  border-color: #d0d5dd;
+  padding: 10px 14px;
+  margin-right: 20px;
+  max-width: 280px;
+}
+
+.notifaed__link {
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 10px 18px;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  background-color: #20ad96;
+  border: none;
+}
+
+/* footer */
+
+footer {
+  padding: 64px 0 48px 0;
+}
+
+.footer___logo-div {
+  max-width: 320px;
+}
+
+.footer___logo-div-text {
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #4a556c80;
+  padding-top: 32px;
+}
+
+.footer__menu {
+  max-width: 400px;
+}
+
+.footer__menu-text {
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 20px;
+  text-align: left;
+  color: #333461;
+  padding-bottom: 10px;
+}
+
+.footer__li {
+  padding-bottom: 10px;
+}
+
+.footer__link {
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #4a556c80;
+}
+
+.footer__content {
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+  max-width: 1216px;
+  margin-bottom: 64px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 33px;
+}
+
+.icons__div {
+  display: flex;
+  gap: 24px;
+}
+
+/* media queri */
+
+@media screen and (max-width: 1285px) {
+  .logos {
+    overflow-x: auto;
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 1097px) {
+  .home__dflex {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 1097px) {
+  .home__dflex {
+    flex-direction: column;
+    /* gap: 20px; */
+  }
+  .clients {
+    overflow-x: auto;
+  }
+}
+
+@media screen and (max-width: 883px) {
+  .ready__dflex {
+    overflow-x: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .home__andre {
+    width: 100%;
+    /* max-width: 462px; */
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .good__text--h {
+    font-family: "Kumbh Sans";
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 38px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #333461;
+    padding-bottom: 20px;
+  }
+
+  .good__text--p {
+    font-family: " Kumbh Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #4a556c;
+  }
+
+  .good {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 975px) {
+  .notifaed__dflex {
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .notifaed__content--text {
+    font-family: "Kumbh Sans";
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 30px;
+    text-align: left;
+    color: #333461;
+    padding-bottom: 16px;
+  }
+
+  .notifaed__content--text-p {
+    font-family: "Kumbh Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #4a556c;
+  }
+}
+
+@media screen and (max-width: 549px) {
+  .footer__contact {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 573px) {
+  .clients__text {
+    max-width: 530px;
+    font-family: "Kumbh Sans";
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 46px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #333461;
+    padding-bottom: 37px;
+  }
+  .footer__menu {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 439px) {
+  .header--dflex {
+    gap: 15px;
+  }
+  .header--link--btn {
+    max-width: 153px;
+    height: 30px;
+    border-radius: 4px;
+    padding: 8px 14px;
+    font-family: "Kumbh Sans" sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+    text-align: center;
+    color: white;
+    background-color: #20ad96;
+  }
+
+  .home__content--text {
+    font-family: Kumbh Sans;
+    font-size: 52px;
+    font-weight: 800;
+    line-height: 86.4px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #333461;
+    padding-bottom: 6px;
+  }
+
+  .home__content--text-2 {
+    font-family: Kumbh Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    color: #4a556c;
+    padding-bottom: 23px;
+  }
+}
